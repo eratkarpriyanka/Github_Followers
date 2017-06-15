@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_user_radius">0dp</dimen>
+    <dimen name="user_cover_height">160dp</dimen>
+    <dimen name="user_title_padding">10dp</dimen>
+    <dimen name="user_title">15sp</dimen>
+    <dimen name="user_details_title">20sp</dimen>
+    <dimen name="users_detail_title_padding">5dp</dimen>
+    <dimen name="users_detail_title_margin">54dp</dimen>
+    <dimen name="users_detail_desc_margin">25dp</dimen>
+    <dimen name="card_details_margin">25dp</dimen>
+    <dimen name="user_profile_width">96dp</dimen>
+    <dimen name="user_profile_height">96dp</dimen>
+    <dimen name="user_photo_margin">5dp</dimen>
+    <dimen name="info_tab_width">85dp</dimen>
+    <dimen name="user_info_margin">10dp</dimen>
+    <dimen name="info_drawable_padding">10dp</dimen>
+    <dimen name="toolbar_vertical_margin">10dp</dimen>
+    <dimen name="recycler_top_margin">10dp</dimen>
+    <dimen name="ll_info_margin">10dp</dimen>
+    <dimen name="user_desc_margin">3dp</dimen>
+    <dimen name="profile_bg_elevation">2dp</dimen>
+    <dimen name="user_info_padding">20dp</dimen>
+</resources>

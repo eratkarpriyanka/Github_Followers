@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GithubFollowers</string>
+    <string name="title_search">Search</string>
+    <string name="empty_list">Yet to get few followers!</string>
+    <string name="search_hint">Enter user\'s name</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="repositories">Repositories</string>
+    <string name="no_user_info">Inadequate details of this user.</string>
+    <string name="net_comm_failure">A bit problem connecting with server!</string>
+    <string name="transitionProfile">Profile</string>
+    <string name="transitionLoginName">Name</string>
+</resources>

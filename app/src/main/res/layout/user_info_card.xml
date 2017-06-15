@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardBackgroundColor="@color/colorWhite"
+        card_view:cardCornerRadius="@dimen/card_user_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ivAvtar"
+                android:layout_width="@dimen/user_profile_width"
+                android:layout_height="@dimen/user_profile_height"
+                android:src="@drawable/ic_face_black_24dp"
+                android:scaleType="centerCrop"
+                android:transitionName="@string/transitionProfile"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivAvtar"
+                android:paddingLeft="@dimen/user_title_padding"
+                android:paddingRight="@dimen/user_title_padding"
+                android:paddingTop="@dimen/user_title_padding"
+                android:transitionName="@string/transitionLoginName"
+                android:paddingBottom="@dimen/user_title_padding"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:typeface="serif"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/user_title" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
